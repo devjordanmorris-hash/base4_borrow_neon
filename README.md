@@ -26,3 +26,5 @@ The residual borrow chain is significantly shorter than the original, making sub
 ```bash
 clang -O3 -mcpu=apple-m1 base4_borrow_preconditioner_neon.c -o base4_borrow_neon
 ./base4_borrow_neon
+
+This was based on an indian method i am hunting down to referance as i cant find it on google - not perfect but honest. from base 10 to bianry ill need a hand finding it. Much love to the beatiful math of india ❤️
